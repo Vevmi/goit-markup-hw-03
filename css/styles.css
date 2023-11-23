@@ -89,6 +89,9 @@ body {
 /* ======= /HEADER ======= */
 
 /* ======= SECTION ONE ======= */
+.section-one {
+    padding: 188px 0;
+}
 .hero {
     background-color: #2e2f42;
 
