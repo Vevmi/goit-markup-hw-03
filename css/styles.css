@@ -176,9 +176,6 @@ line-height: 1.5;
     display: flex;
     gap: 24px;
 }
-
-
-
 /* ======= /SECTION ONE ======= */
 
 /* ======= SECTION TWO ======= */
@@ -201,9 +198,11 @@ line-height: 1.5;
     gap: 24px;
 }
 .section-two-list-item {
-width: calc((100% - 48px) / 3);
+width: calc((100% - 2*24) / 3);
 }
 /* ======= /SECTION TWO ======= */
+
+/* ======= SECTION THREE ======= */
 .sect-three {
     background-color: #F4F4FD;
 }
@@ -217,6 +216,7 @@ width: calc((100% - 48px) / 3);
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .text-three {
     color: #434455;
@@ -227,12 +227,29 @@ width: calc((100% - 48px) / 3);
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+.header-three-item {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
 .sect-three-item {
     background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
+.name-profession {
+    padding: 32px 0;
+}
+/* ======= /SECTION THREE ======= */
 footer {
     background-color: #2e2f42;
 }
@@ -254,16 +271,7 @@ footer {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.header-three-item {
-    color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-}
+
 
 .sect-one-but {
     color: #4d5ae5;
