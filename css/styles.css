@@ -102,6 +102,7 @@ body {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        max-width: 496px;
 }
 .hero-button {
     background: #4D5AE5;
@@ -113,6 +114,13 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    border-radius: 4px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
