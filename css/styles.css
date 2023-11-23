@@ -1,3 +1,4 @@
+
 :root {
     --primary-bg-color: #2E2F42;
     --primary-text-color: #434455;
@@ -7,12 +8,27 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .list {
     list-style-type: none;
 }
 .link {
     text-decoration: none;
 }
+/*======= /MAIN CSS =======*/
 
 /* ======= HEADER ======= */
 .header-index {
@@ -129,6 +145,7 @@ body {
 .hero-button:focus {
     background-color: #404BBF;
 }
+
 .sect-one {
     color:#2E2F42;
         font-family: Roboto;
@@ -145,6 +162,19 @@ line-height: 1.5;
        letter-spacing: 0.02em;
 }
 /* ======= /SECTION ONE ======= */
+
+/* ======= SECTION TWO ======= */
+.section-two {
+    padding: 120px 0;
+}
+.section-two-list-item {
+    width: calc((100% - 72px) / 4);
+}
+.section-two-list {
+    display: flex;
+    gap: 24px;
+}
+
 .sect-two {
     color:#2E2F42;
         text-align: center;
@@ -155,9 +185,11 @@ line-height: 1.5;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
+/* ======= /SECTION TWO ======= */
 .sect-three {
     background-color: #F4F4FD;
 }
+
 .header-three {
     color:#2E2F42;
         text-align: center;
