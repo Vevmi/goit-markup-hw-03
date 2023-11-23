@@ -152,7 +152,7 @@ body {
     padding: 120px 0;
 }
 .section-one-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 16px) / 3))
 }
 .sect-one {
     color:#2E2F42;
