@@ -14,6 +14,20 @@ body {
     text-decoration: none;
 }
 
+/* ======= HEADER ======= */
+.header-index {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-box {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
 .logo{
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -23,10 +37,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .studio {
     color: var(--primary-bg-color);
-
+}
+.menu {
+    display: flex;
+    gap: 40px;
 }
 
 .menu-item {
@@ -38,8 +56,8 @@ body {
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -47,6 +65,10 @@ body {
 }
 .contacts {
         font-style: normal;
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-item:hover,
@@ -64,7 +86,9 @@ body {
         /* 150% */
         letter-spacing: 0.02em;
 }
+/* ======= /HEADER ======= */
 
+/* ======= SECTION ONE ======= */
 .hero {
     background-color: #2e2f42;
 
@@ -109,6 +133,7 @@ line-height: 1.5;
                 /* 120% */
        letter-spacing: 0.02em;
 }
+/* ======= /SECTION ONE ======= */
 .sect-two {
     color:#2E2F42;
         text-align: center;
