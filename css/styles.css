@@ -293,16 +293,7 @@ footer {
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-.product-name {
-    color:  #2E2F42;
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        /* 120% */
-        letter-spacing: 0.02em;
-}
+
 .product-desc {
 color: var(--SLATE, #434455);
     font-size: 16px;
@@ -364,4 +355,15 @@ color: var(--SLATE, #434455);
 }
 .app-list {
     width: calc((100% - 48px) / 3);
+}
+.product-name {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
