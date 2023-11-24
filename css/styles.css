@@ -8,6 +8,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+img {
+    display: block;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -278,7 +281,6 @@ footer {
         max-width: 264px;
 }
 
-
 .sect-one-but {
     color: #4d5ae5;
     background-color: #F4F4FD;
@@ -324,4 +326,8 @@ color: var(--SLATE, #434455);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+/*======= PORTFOLIO HEADER =======*/
+.header-portfolio {
+    border-bottom: 1px solid #e7e9fc;
 }
